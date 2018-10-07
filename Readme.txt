@@ -14,7 +14,7 @@
 
 Hello, My name is Maulana Rachman
 I am just young programmer
-This my library just for Self-Study Purposes
+This is my library just for Self-Study Purposes
 .
 .
 .

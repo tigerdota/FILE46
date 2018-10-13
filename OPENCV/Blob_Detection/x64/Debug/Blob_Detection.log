@@ -1,5 +1,0 @@
-﻿  Blob Detection.cpp
-c:\users\user\source\repos\project1\blob_detection\blob detection.cpp(26): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\user\source\repos\project1\blob_detection\blob detection.cpp(30): warning C4305: '=': truncation from 'double' to 'float'
-c:\users\user\source\repos\project1\blob_detection\blob detection.cpp(34): warning C4305: '=': truncation from 'double' to 'float'
-  Blob_Detection.vcxproj -> C:\Users\USER\source\repos\Project1\x64\Debug\Blob_Detection.exe

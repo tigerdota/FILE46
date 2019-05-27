@@ -1,3 +1,3 @@
 Tugas Akhir tentang conveyor coin.
 
-BAB 1. Sudah selesai silahkan cek dulu.
+BAB 1. Sudah selesai silahkan cek dulu. Kalo mau ditanyakan di wa ja.. gak usah kerumah. pagi saya tidur zzzZZ...

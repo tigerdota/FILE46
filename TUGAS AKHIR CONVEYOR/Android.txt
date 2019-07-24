@@ -1,0 +1,55 @@
+#include <Servo.h>
+
+Servo myservo;
+Servo myservo2;
+
+int pos;
+
+void setup(){
+  Serial.begin(9600);
+  myservo.attach(9);
+  myservo2.attach(10);
+  myservo.write(30); 
+  myservo2.write(30); 
+  pinMode(ledPin, OUTPUT);  
+}
+
+void loop(){
+  if(Serial.available()>0){
+    String info;
+    info = Serial.readStringUntil('\n');
+    
+    if(info.equals("OFF")){
+      digitalWrite(ledPin, LOW);    
+      //servo
+      for (pos = 1; pos <= 30; pos += 1) { // goes from 0 degrees to 180 degrees
+        myservo.write(pos);              // tell servo to go to position in variable 'pos' 
+        delay(2);                       // waits 15ms for the servo to reach the position
+      }
+    }
+    else if(info.equals("ON")){
+      digitalWrite(ledPin, HIGH);
+      //servo
+      for (pos = 30; pos >= 1; pos -= 1) { // goes from 0 degrees to 180 degrees
+        myservo.write(pos);     
+        delay(2);                       // waits 15ms for the servo to reach the position
+      }
+    }
+    if(info.equals("OFF2")){
+      digitalWrite(ledPin, LOW);    
+      //servo
+      for (pos = 3; pos <= 30; pos += 1) { // goes from 0 degrees to 180 degrees
+        myservo2.write(pos); 
+        delay(2);                       // waits 15ms for the servo to reach the position
+      }
+    }
+    else if(info.equals("ON2")){
+      digitalWrite(ledPin, HIGH);
+      //servo
+      for (pos = 30; pos >= 3; pos -= 1) { // goes from 0 degrees to 180 degrees    
+        myservo2.write(pos); 
+        delay(2);                       // waits 15ms for the servo to reach the position
+      }
+    }
+  }
+}

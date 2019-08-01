@@ -1,0 +1,10 @@
+﻿  Coin.cpp
+c:\users\user\source\repos\project1\coin detection cam\coin.cpp(39): warning C4101: 'c': unreferenced local variable
+c:\users\user\source\repos\project1\coin detection cam\coin.cpp(118): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\user\source\repos\project1\coin detection cam\coin.cpp(121): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\user\source\repos\project1\coin detection cam\coin.cpp(124): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\user\source\repos\project1\coin detection cam\coin.cpp(158): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\user\source\repos\project1\coin detection cam\coin.cpp(200): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\user\source\repos\project1\coin detection cam\coin.cpp(217): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\user\source\repos\project1\coin detection cam\coin.cpp(148): warning C4101: 'm_total': unreferenced local variable
+  Coin Detection Cam.vcxproj -> C:\Users\USER\source\repos\Project1\x64\Debug\Coin Detection Cam.exe
